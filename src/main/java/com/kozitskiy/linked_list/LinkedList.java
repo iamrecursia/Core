@@ -122,17 +122,18 @@ public class LinkedList<T> {
 
         if(index == 0){
             removeFirst();
+            return;
         }
 
         if(index == size - 1){
             removeLast();
+            return;
         }
 
         Node<T> current = head;
         for(int i = 0; i < index - 1; i++){
             current = current.next;
         }
-
         current.next = current.next.next;
         size--;
     }
