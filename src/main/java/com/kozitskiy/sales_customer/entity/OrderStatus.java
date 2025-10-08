@@ -1,0 +1,5 @@
+package com.kozitskiy.sales_customer.entity;
+
+public enum OrderStatus {
+    NEW, PROCESSING, SHIPPED, DELIVERED, CANCELLED
+}
