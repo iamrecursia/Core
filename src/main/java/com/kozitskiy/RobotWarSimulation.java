@@ -36,16 +36,16 @@ public class RobotWarSimulation
             wednesday.buildRobots();
         }
 
-        System.out.println("--- Результаты после 100 дней ---");
-        System.out.println(world.getName() + ": " + world.getRobotsBuilt() + " роботов");
-        System.out.println(wednesday.getName() + ": " + wednesday.getRobotsBuilt() + " роботов");
+        System.out.println("--- Results after 100 days ---");
+        System.out.println(world.getName() + ": " + world.getRobotsBuilt() + " robots");
+        System.out.println(wednesday.getName() + ": " + wednesday.getRobotsBuilt() + " robots");
 
         if (world.getRobotsBuilt() > wednesday.getRobotsBuilt()) {
-            System.out.println("Победитель: " + world.getName());
+            System.out.println("The Winner: " + world.getName());
         } else if (wednesday.getRobotsBuilt() > world.getRobotsBuilt()) {
-            System.out.println("Победитель: " + wednesday.getName());
+            System.out.println("The Winner: " + wednesday.getName());
         } else {
-            System.out.println("Ничья!");
+            System.out.println("The draw!");
         }
     }
 }
