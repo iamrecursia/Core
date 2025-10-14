@@ -1,4 +1,4 @@
-package com.kozitskiy.linked_list;
+package com.kozitskiy.linkedlist;
 
 public class Runner {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package com.kozitskiy.linked_list;
+package com.kozitskiy.linkedlist;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;

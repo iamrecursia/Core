@@ -1,6 +1,17 @@
-package com.kozitskiy.linked_list;
+package com.kozitskiy.linkedlist;
 
 public class LinkedList<T> {
+
+    private static class Node<T> {
+        T data;
+        Node<T> next;
+
+        public Node(T data) {
+            this.data = data;
+            this.next = null;
+        }
+    }
+
     private Node<T> head;
     private int size = 0;
 
