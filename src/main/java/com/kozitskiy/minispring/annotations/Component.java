@@ -10,3 +10,4 @@ import java.lang.annotation.Target;
 public @interface Component {
     String value() default "";
 }
+// В моем minispring приложении не используются имена бинов - все бины храняться и извлекаются по имени класса.
