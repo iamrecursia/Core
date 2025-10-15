@@ -1,5 +1,5 @@
 package com.kozitskiy.minispring;
 
-public interface InitializinBean {
+public interface InitializingBean {
     void afterPropertiesSet() throws Exception;
 }
